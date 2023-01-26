@@ -68,4 +68,4 @@ spec:
     apiVersion: rabbitmq.com/v1beta1
     kind: RabbitmqCluster
     name: rmq-where-for-dinner
-    namespace: #@ data.values.namespace
+    namespace: #@ data.values.namespaces
